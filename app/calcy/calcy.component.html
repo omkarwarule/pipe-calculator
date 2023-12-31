@@ -1,0 +1,37 @@
+<div>
+    <h2 [class]="'success'">Addition</h2>
+    <h3>Enter first number</h3>
+    <input #input1 type="text"  />
+    <h3>Enter second number</h3>
+    <input #input2 type="text" >
+    <button (click)="assin(input1.value,input2.value)" >submit</button>
+    <h3>{{ino1|myAdd:ino2}} </h3>
+</div>
+<!-- <div>
+    <h2 [class]="'success'">subtraction</h2>
+    <h3>Enter first number</h3>
+    <input #input type="text"  />
+    <h3>Enter second number</h3>
+    <input #inputk type="text" >
+    <button (click)="sub(input.value,inputk.value)" >submit</button>
+    <h3>{{sub(input.value,inputk.value)}} </h3>
+</div> -->
+<div>
+    <h2 [class]="'success'">multiplicatin</h2>
+    <h3>Enter first number</h3>
+    <input #input5 type="text"  />
+    <h3>Enter second number</h3>
+    <input #input6 type="text" >
+    <button (click)="assin2(input5.value,input6.value)" >submit</button>
+    <h3>{{ino3|myMul:ino4}} </h3>
+</div>
+<!-- <div>
+    <h2 [class]="'success'">divisio</h2>
+    <h3>Enter first number</h3>
+    <input #inputo type="text"  />
+    <h3>Enter second number</h3>
+    <input #input2o type="text" >
+    <button (click)="div(inputo.value,input2o.value)" >submit</button>
+    <h3>{{div(inputo.value,input2o.value)}} </h3>
+</div> -->
+
